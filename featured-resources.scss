@@ -1,0 +1,73 @@
+$primary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$main-font-color: #212529;
+$primary-purple: #632ca6;
+$secondary-purple: #7000f0;
+$primary-blue: #002eb8;
+
+.resources-container {
+  font-family: $primary-font;
+  color: $main-font-color;
+  background: linear-gradient(230deg, $primary-purple 0%, $primary-blue 100%);
+  
+    h2 {
+      font-weight: 600;
+      padding: 2rem 0 0 0;
+      color: #ffffff;
+    }
+
+    .resources-container-description {
+      font-weight: 600;
+      font-size: 1.2rem;
+      margin: 1rem auto 2rem;
+      color: #ffffff;
+    }
+
+    label.form-label {
+      color: #ffffff;
+    }
+  
+    select.form-select {
+      border-radius: 4px;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: none;
+    }
+
+    .fr-cards-container {
+      padding-top: 2.6rem;
+      padding-bottom: 3rem;
+    }
+  
+    .fr-card {
+      background-color: #ffffff;
+      transition: box-shadow 0.2s ease;
+  
+      &:hover {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+      }
+  
+      .card-title {
+        font-size: 1.05rem;
+        font-weight: 500;
+        color: #1a1a1a;
+      }
+  
+      .category {
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        color: #888;
+      }
+  
+      a.btn {
+        font-weight: 500;
+      }
+    }
+
+    .resource-noresults {
+      color: #ffffff;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 4rem auto;
+    }
+  }
+  
