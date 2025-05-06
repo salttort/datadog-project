@@ -1,0 +1,27 @@
+[
+    {
+      "title": "4 Quick Steps for Better Incident Resolution in DevOps",
+      "description": "Accelerate your time to resolution and build resilience into your systems and <scripts> with this simple 4-step approach.",
+      "category": "E-Book",
+      "url": "https://www.datadoghq.com/resources/devops-incident-resolution-ebook/"
+    },
+    {
+      "title": "State of DevSecOps",
+      "description": "Learn about the security posture of tens of thousands of applications and adoption of DevSecOps practices.",
+      "category": "Research",
+      "url": "https://www.datadoghq.com/state-of-devsecops/"
+    },
+    {
+      "title": "Azure Virtual Machine (VM) Cheatsheet",
+      "description": "Learn how to monitor Azure Virtual Machines (VMs) with Datadog.",
+      "category": "Cheatsheet",
+      "url": "https://www.datadoghq.com/resources/azure-vm-cheatsheet/",
+      "active": false
+    },
+    {
+      "title": "Optimize & troubleshoot cloud storage at scale with Storage Monitoring",
+      "description": "Learn how you can gain actionable visibility into your Amazon S3 and Google Cloud Storage usage, performance, and costs.",
+      "category": "Blog",
+      "url": "https://www.datadoghq.com/blog/datadog-storage-monitoring/"
+    },
+]
