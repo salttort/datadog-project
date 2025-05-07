@@ -40,26 +40,47 @@ $primary-blue: #002eb8;
   
     .fr-card {
       background-color: #ffffff;
-      transition: box-shadow 0.2s ease;
+      box-shadow: 1px 2px 3px rgba(18, 18, 18, 0.36);
+      transition-duration: 0.3s;
   
       &:hover {
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+        box-shadow: 3px 4px 9px rgba(18, 18, 18, 0.2);
+        transform: scale(1.02);
+      }
+
+      &:focus {
+        box-shadow: 3px 4px 9px rgba(18, 18, 18, 0.2);
       }
   
-      .card-title {
-        font-size: 1.05rem;
-        font-weight: 500;
-        color: #1a1a1a;
+      h3 {
+        font-size: 1.26rem;
+        font-weight: 600;
+        color: $primary-purple;
       }
   
-      .category {
-        font-weight: 500;
-        letter-spacing: 0.5px;
-        color: #888;
+      .fr-category {
+        margin-bottom: 2rem;
+        border-radius: 4px;
+        padding: 0.2rem 0.6rem;
+        background-color: #efefef;
+        text-align: center;
+        margin-right: auto;
       }
   
-      a.btn {
-        font-weight: 500;
+      a.fr-button {
+        background-color: $primary-purple;
+        color: #ffffff;
+        margin-top: auto;
+
+        &:hover {
+          background-color: $secondary-purple;
+        }
+
+        &:focus {
+          background-color: $secondary-purple;
+          outline: 2px solid $primary-purple;
+          outline-offset: 2px;
+        }
       }
     }
 
@@ -67,7 +88,7 @@ $primary-blue: #002eb8;
       color: #ffffff;
       font-size: 1.5rem;
       font-weight: 600;
-      margin: 4rem auto;
+      margin: 3rem auto;
     }
   }
   
